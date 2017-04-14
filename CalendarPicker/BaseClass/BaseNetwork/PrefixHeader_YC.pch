@@ -1,0 +1,40 @@
+//
+//  PrefixHeader_YC.pch
+//  YC
+//
+//  Created by Gu GuiJun on 2017/2/28.
+//  Copyright © 2017年 Gu GuiJun. All rights reserved.
+//
+
+#ifndef PrefixHeader_YC_pch
+#define PrefixHeader_YC_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "BaseMacroDefine.h"
+#import "RootNavigationController.h"
+
+//pod header
+#import "OVCHTTPSessionManager.h"
+#import <AFNetworking/AFNetworking.h>
+#import <Overcoat/Overcoat.h>
+#import <Overcoat/PromiseKit+Overcoat.h>
+#import <PromiseKit/PromiseKit.h>
+#import "AFURLSessionManager.h"
+#import "SVProgressHUD.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+
+#endif
+
+#endif /* PrefixHeader_YC_pch */

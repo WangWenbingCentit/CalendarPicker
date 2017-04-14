@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A74C4DAC356AFF614C02E36 /* Pods_CalendarPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612EDD6A4131B2B7155D5530 /* Pods_CalendarPicker.framework */; };
 		A20813D91E862A5400C2B891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20813D81E862A5400C2B891 /* main.m */; };
 		A20813DC1E862A5400C2B891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20813DB1E862A5400C2B891 /* AppDelegate.m */; };
 		A20813DF1E862A5400C2B891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20813DE1E862A5400C2B891 /* ViewController.m */; };
 		A20813E21E862A5400C2B891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20813E01E862A5400C2B891 /* Main.storyboard */; };
 		A20813E41E862A5400C2B891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20813E31E862A5400C2B891 /* Assets.xcassets */; };
 		A20813E71E862A5400C2B891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20813E51E862A5400C2B891 /* LaunchScreen.storyboard */; };
+		A2140E5F1E927E380012F7C9 /* BaseSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2140E5E1E927E380012F7C9 /* BaseSessionManager.m */; };
+		A2140E641E9286BB0012F7C9 /* CalendarPickerProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = A2140E631E9286BB0012F7C9 /* CalendarPickerProtocol.h */; };
+		A2140E671E928C710012F7C9 /* LoginSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2140E661E928C710012F7C9 /* LoginSessionManager.m */; };
+		A21940311E87537000A32377 /* UIMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21940301E87537000A32377 /* UIMessageViewController.m */; };
+		A21940341E87538300A32377 /* UIWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21940331E87538300A32377 /* UIWorkViewController.m */; };
+		A21940371E87539900A32377 /* UIContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21940361E87539900A32377 /* UIContactViewController.m */; };
+		A23981271E93382B00EEA089 /* UIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23981261E93382B00EEA089 /* UIMainViewController.m */; };
+		A239812A1E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A23981291E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.m */; };
+		A239812D1E933E2300EEA089 /* FirstlaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A239812C1E933E2300EEA089 /* FirstlaunchManager.m */; };
+		A23981301E93428800EEA089 /* UILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A239812F1E93428800EEA089 /* UILoginViewController.m */; };
+		A23981351E9345CE00EEA089 /* UILoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A23981341E9345CE00EEA089 /* UILoginView.m */; };
+		A23981381E93461200EEA089 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A23981371E93461200EEA089 /* LoginViewModel.m */; };
+		A239813B1E93469C00EEA089 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A239813A1E93469C00EEA089 /* Account.m */; };
+		A29D22BC1E909FE0005710D3 /* UIMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A29D22BB1E909FE0005710D3 /* UIMessageView.m */; };
+		A29D22C01E90A542005710D3 /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = A29D22BF1E90A542005710D3 /* Flag.m */; };
+		A29D22C21E90A695005710D3 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = A29D22C11E90A695005710D3 /* flags.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EEBF7B9CD396E1F3313E1CB /* Pods-CalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		612EDD6A4131B2B7155D5530 /* Pods_CalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC9E5B4406855D9BB6FC092 /* Pods-CalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker.release.xcconfig"; sourceTree = "<group>"; };
 		A20813D41E862A5400C2B891 /* CalendarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20813D81E862A5400C2B891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A20813DA1E862A5400C2B891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +46,39 @@
 		A20813E31E862A5400C2B891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20813E61E862A5400C2B891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20813E81E862A5400C2B891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2140E5D1E927E380012F7C9 /* BaseSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSessionManager.h; sourceTree = "<group>"; };
+		A2140E5E1E927E380012F7C9 /* BaseSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSessionManager.m; sourceTree = "<group>"; };
+		A2140E601E9282130012F7C9 /* BaseMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMacroDefine.h; sourceTree = "<group>"; };
+		A2140E631E9286BB0012F7C9 /* CalendarPickerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPickerProtocol.h; sourceTree = "<group>"; };
+		A2140E651E928C710012F7C9 /* LoginSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSessionManager.h; sourceTree = "<group>"; };
+		A2140E661E928C710012F7C9 /* LoginSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSessionManager.m; sourceTree = "<group>"; };
+		A219402F1E87537000A32377 /* UIMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMessageViewController.h; sourceTree = "<group>"; };
+		A21940301E87537000A32377 /* UIMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMessageViewController.m; sourceTree = "<group>"; };
+		A21940321E87538300A32377 /* UIWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWorkViewController.h; sourceTree = "<group>"; };
+		A21940331E87538300A32377 /* UIWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWorkViewController.m; sourceTree = "<group>"; };
+		A21940351E87539900A32377 /* UIContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIContactViewController.h; sourceTree = "<group>"; };
+		A21940361E87539900A32377 /* UIContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIContactViewController.m; sourceTree = "<group>"; };
+		A23981241E93361000EEA089 /* PrefixHeader_YC.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader_YC.pch; sourceTree = "<group>"; };
+		A23981251E93382B00EEA089 /* UIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainViewController.h; sourceTree = "<group>"; };
+		A23981261E93382B00EEA089 /* UIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainViewController.m; sourceTree = "<group>"; };
+		A23981281E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FirstLaunchDefaults.h"; sourceTree = "<group>"; };
+		A23981291E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+FirstLaunchDefaults.m"; sourceTree = "<group>"; };
+		A239812B1E933E2300EEA089 /* FirstlaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstlaunchManager.h; sourceTree = "<group>"; };
+		A239812C1E933E2300EEA089 /* FirstlaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstlaunchManager.m; sourceTree = "<group>"; };
+		A239812E1E93428800EEA089 /* UILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILoginViewController.h; sourceTree = "<group>"; };
+		A239812F1E93428800EEA089 /* UILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILoginViewController.m; sourceTree = "<group>"; };
+		A23981331E9345CE00EEA089 /* UILoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILoginView.h; sourceTree = "<group>"; };
+		A23981341E9345CE00EEA089 /* UILoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILoginView.m; sourceTree = "<group>"; };
+		A23981361E93461200EEA089 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		A23981371E93461200EEA089 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		A23981391E93469C00EEA089 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		A239813A1E93469C00EEA089 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		A29D22B61E90876B005710D3 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/CalendarPicker-cmyssattwxjwgeaoikpgskyvbqks/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		A29D22BA1E909FE0005710D3 /* UIMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMessageView.h; sourceTree = "<group>"; };
+		A29D22BB1E909FE0005710D3 /* UIMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMessageView.m; sourceTree = "<group>"; };
+		A29D22BE1E90A542005710D3 /* Flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		A29D22BF1E90A542005710D3 /* Flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
+		A29D22C11E90A695005710D3 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +86,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A74C4DAC356AFF614C02E36 /* Pods_CalendarPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21669E0E445178652C7B4223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EEBF7B9CD396E1F3313E1CB /* Pods-CalendarPicker.debug.xcconfig */,
+				8CC9E5B4406855D9BB6FC092 /* Pods-CalendarPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		281DB248AA85E8AC5C18F68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29D22B61E90876B005710D3 /* ReactiveCocoa.framework */,
+				612EDD6A4131B2B7155D5530 /* Pods_CalendarPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A20813CB1E862A5400C2B891 = {
 			isa = PBXGroup;
 			children = (
 				A20813D61E862A5400C2B891 /* CalendarPicker */,
 				A20813D51E862A5400C2B891 /* Products */,
+				21669E0E445178652C7B4223 /* Pods */,
+				281DB248AA85E8AC5C18F68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +132,28 @@
 		A20813D61E862A5400C2B891 /* CalendarPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A29D22BD1E90A507005710D3 /* Model */,
+				A23981321E9344F200EEA089 /* ViewModel */,
+				A23981311E9344E300EEA089 /* View */,
+				A2140E611E92847B0012F7C9 /* Protocol */,
+				A2140E5B1E927DB00012F7C9 /* BaseClass */,
+				A2140E5A1E927D4A0012F7C9 /* Function */,
 				A20813DA1E862A5400C2B891 /* AppDelegate.h */,
 				A20813DB1E862A5400C2B891 /* AppDelegate.m */,
+				A239812E1E93428800EEA089 /* UILoginViewController.h */,
+				A239812F1E93428800EEA089 /* UILoginViewController.m */,
+				A23981251E93382B00EEA089 /* UIMainViewController.h */,
+				A23981261E93382B00EEA089 /* UIMainViewController.m */,
+				A219402F1E87537000A32377 /* UIMessageViewController.h */,
+				A21940301E87537000A32377 /* UIMessageViewController.m */,
+				A21940321E87538300A32377 /* UIWorkViewController.h */,
+				A21940331E87538300A32377 /* UIWorkViewController.m */,
+				A21940351E87539900A32377 /* UIContactViewController.h */,
+				A21940361E87539900A32377 /* UIContactViewController.m */,
 				A20813DD1E862A5400C2B891 /* ViewController.h */,
 				A20813DE1E862A5400C2B891 /* ViewController.m */,
+				A29D22BA1E909FE0005710D3 /* UIMessageView.h */,
+				A29D22BB1E909FE0005710D3 /* UIMessageView.m */,
 				A20813E01E862A5400C2B891 /* Main.storyboard */,
 				A20813E31E862A5400C2B891 /* Assets.xcassets */,
 				A20813E51E862A5400C2B891 /* LaunchScreen.storyboard */,
@@ -79,6 +171,77 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A2140E5A1E927D4A0012F7C9 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				A23981281E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.h */,
+				A23981291E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.m */,
+				A239812B1E933E2300EEA089 /* FirstlaunchManager.h */,
+				A239812C1E933E2300EEA089 /* FirstlaunchManager.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		A2140E5B1E927DB00012F7C9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A2140E5C1E927DCD0012F7C9 /* BaseNetwork */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		A2140E5C1E927DCD0012F7C9 /* BaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A23981241E93361000EEA089 /* PrefixHeader_YC.pch */,
+				A2140E5D1E927E380012F7C9 /* BaseSessionManager.h */,
+				A2140E5E1E927E380012F7C9 /* BaseSessionManager.m */,
+				A2140E601E9282130012F7C9 /* BaseMacroDefine.h */,
+				A2140E651E928C710012F7C9 /* LoginSessionManager.h */,
+				A2140E661E928C710012F7C9 /* LoginSessionManager.m */,
+			);
+			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		A2140E611E92847B0012F7C9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A2140E631E9286BB0012F7C9 /* CalendarPickerProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A23981311E9344E300EEA089 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A23981331E9345CE00EEA089 /* UILoginView.h */,
+				A23981341E9345CE00EEA089 /* UILoginView.m */,
+			);
+			name = View;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A23981321E9344F200EEA089 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A23981361E93461200EEA089 /* LoginViewModel.h */,
+				A23981371E93461200EEA089 /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A29D22BD1E90A507005710D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A29D22C11E90A695005710D3 /* flags.plist */,
+				A29D22BE1E90A542005710D3 /* Flag.h */,
+				A29D22BF1E90A542005710D3 /* Flag.m */,
+				A23981391E93469C00EEA089 /* Account.h */,
+				A239813A1E93469C00EEA089 /* Account.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A20813EB1E862A5400C2B891 /* Build configuration list for PBXNativeTarget "CalendarPicker" */;
 			buildPhases = (
+				CFA9BFD1FF91CB2753990C58 /* [CP] Check Pods Manifest.lock */,
 				A20813D01E862A5400C2B891 /* Sources */,
 				A20813D11E862A5400C2B891 /* Frameworks */,
 				A20813D21E862A5400C2B891 /* Resources */,
+				285392FA7900C029C89E6735 /* [CP] Embed Pods Frameworks */,
+				D26BCA1A715DFA3332B077F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +276,7 @@
 				TargetAttributes = {
 					A20813D31E862A5400C2B891 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T3GJXPTE2B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,20 +306,84 @@
 			files = (
 				A20813E71E862A5400C2B891 /* LaunchScreen.storyboard in Resources */,
 				A20813E41E862A5400C2B891 /* Assets.xcassets in Resources */,
+				A29D22C21E90A695005710D3 /* flags.plist in Resources */,
 				A20813E21E862A5400C2B891 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		285392FA7900C029C89E6735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA9BFD1FF91CB2753990C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D26BCA1A715DFA3332B077F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A20813D01E862A5400C2B891 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A239812A1E933B7800EEA089 /* NSUserDefaults+FirstLaunchDefaults.m in Sources */,
+				A239812D1E933E2300EEA089 /* FirstlaunchManager.m in Sources */,
+				A21940311E87537000A32377 /* UIMessageViewController.m in Sources */,
+				A2140E5F1E927E380012F7C9 /* BaseSessionManager.m in Sources */,
+				A21940341E87538300A32377 /* UIWorkViewController.m in Sources */,
+				A2140E641E9286BB0012F7C9 /* CalendarPickerProtocol.h in Sources */,
 				A20813DF1E862A5400C2B891 /* ViewController.m in Sources */,
+				A23981301E93428800EEA089 /* UILoginViewController.m in Sources */,
+				A29D22C01E90A542005710D3 /* Flag.m in Sources */,
+				A239813B1E93469C00EEA089 /* Account.m in Sources */,
+				A21940371E87539900A32377 /* UIContactViewController.m in Sources */,
+				A23981351E9345CE00EEA089 /* UILoginView.m in Sources */,
+				A23981271E93382B00EEA089 /* UIMainViewController.m in Sources */,
 				A20813DC1E862A5400C2B891 /* AppDelegate.m in Sources */,
+				A2140E671E928C710012F7C9 /* LoginSessionManager.m in Sources */,
 				A20813D91E862A5400C2B891 /* main.m in Sources */,
+				A23981381E93461200EEA089 /* LoginViewModel.m in Sources */,
+				A29D22BC1E909FE0005710D3 /* UIMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +411,7 @@
 /* Begin XCBuildConfiguration section */
 		A20813E91E862A5400C2B891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEBF7B9CD396E1F3313E1CB /* Pods-CalendarPicker.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -218,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -227,6 +459,7 @@
 		};
 		A20813EA1E862A5400C2B891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC9E5B4406855D9BB6FC092 /* Pods-CalendarPicker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -259,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,8 +501,10 @@
 		};
 		A20813EC1E862A5400C2B891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEBF7B9CD396E1F3313E1CB /* Pods-CalendarPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3GJXPTE2B;
 				INFOPLIST_FILE = CalendarPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Centit.CalendarPicker;
@@ -279,8 +514,10 @@
 		};
 		A20813ED1E862A5400C2B891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC9E5B4406855D9BB6FC092 /* Pods-CalendarPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3GJXPTE2B;
 				INFOPLIST_FILE = CalendarPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Centit.CalendarPicker;
@@ -307,6 +544,7 @@
 				A20813ED1E862A5400C2B891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
